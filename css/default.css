@@ -3,6 +3,23 @@
 body{
   background-color: 3c71585;
 }
+
+#gnav ul{
+  overflow: hidden;
+}
+
+#gnav ul{
+ float: left;
+  width: 156px;
+  border-right: white 1px solid;
+  list-style-type: none;
+}
+
+#gnav li:first-child{
+ border-left: white 1px solid;
+}
+
+
 .readcrumbs li {
 display: inline;
   list-style-type:none;
